@@ -110,7 +110,7 @@ async function main() {
     const k = parseInt(readLine().trim());
 
     const teams = await getTeams(year, k);
-
+#bfdskjnfdjfkjfwefjefn
     for (const team of teams) {
         ws.write(`${team}\n`);
     }
